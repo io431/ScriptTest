@@ -39,6 +39,10 @@ public class Boss
             Debug.Log(array[i]);
         }
 
+        for (int o = array.Length - 1; o >= 0; o--)
+        {
+            Debug.Log(array[o]);
+        }
 
 
     }
